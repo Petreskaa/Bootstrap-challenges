@@ -1,0 +1,77 @@
+li.nav-item.active{
+    border-left: 1px solid white;
+}
+.carousel-caption{
+    top: 50%;
+    bottom: unset;
+    transform: translateY(-50%);
+}
+.parallex{
+    background-image: url("./starter-files/images/lights.jpg");
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallex-2{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(./starter-files/images/media.jpg);
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-black{
+    background-color: black;
+    min-height: 80px;
+}
+.parallex-3{
+    background-image: url("./starter-files/images/image1.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption{
+    margin-top: 125px;
+}
+.img-top{
+    top: 70%;
+    bottom: unset;
+    transform: translateY(-50%);
+}
+.bg-red{
+    background-color: red;
+}
+.about-page-c{
+    height: 150px;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+@media only screen and (max-width: 320px){
+    .ml-auto, .mx-auto{
+        width: 300px;
+    }
+    
+}
